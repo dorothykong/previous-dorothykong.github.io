@@ -1258,7 +1258,7 @@ g.selectAll("scatter-dots")
       .attr("class", "scatter-dots")
       .attr("cy", function (d) { return y(d); } )
       .attr("cx", function (d,i) { return x(weights[i]); } )
-      .attr("r", 3)
+      .attr("r", 5)
       .style("opacity", 0.6);
 
 
