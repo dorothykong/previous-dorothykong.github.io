@@ -1,1 +1,43 @@
-Hello World
+<style>
+body {
+  font: 11px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.scatter-dots {
+  fill: black ;
+}
+
+.scatter-dots:hover {
+  fill: orangered ;
+}
+
+<!--div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+  border: 0px;
+}-->
+
+</style>
+
+<html>
+  <head>
+    Cars Dataset Visualization
+    <title>Cars Dataset</title>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.v2.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class='content'>
+      <!-- chart here -->
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
